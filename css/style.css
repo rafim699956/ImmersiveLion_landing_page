@@ -157,6 +157,27 @@ img {
     vertical-align: middle;
 }
 
+.news {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    position: fixed;
+    bottom: 47px;
+    right: 39px;
+    z-index: 9;
+}
+
+.news a {
+    font-family: Josefin Sans;
+    font-weight: 600;
+    font-size: 20px;
+    color: #1F1E26;
+    text-align: center;
+    line-height: 90px;
+    display: block;
+}
+
 /* location part start */
 #location_section {
     padding: 170px 0;
@@ -328,4 +349,58 @@ img {
 .educational .advernture2_text {
     width: 657px;
     border-radius: 15px;
+}
+
+/* virtual class part start */
+.virtual {
+    background: url(/image/virtual_part.png) no-repeat center;
+    background-size: cover;
+}
+
+.common_head .margin_left {
+    margin-left: 20px;
+}
+
+/* footer part start */
+#footer {
+    padding: 120px 0 38px;
+    background: #1F1E26;
+}
+
+#footer address {
+    font-family: Josefin Sans;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    font-style: normal;
+}
+
+#footer button {
+    padding: 11px 60px;
+    border-radius: 16px;
+    border: none;
+    font-family: open Sans;
+    font-weight: 600;
+    font-size: 16px;
+    color: #1F1E26;
+    margin: 0 auto;
+    display: block;
+    margin-top: 22px;
+    cursor: pointer;
+    transition: all linear .3s;
+}
+
+#footer button:hover {
+    background: #FFC107;
+}
+
+.icon {
+    text-align: center;
+}
+
+.icon img {
+    width: 44px;
+    margin: 40px 4px 0;
 }
