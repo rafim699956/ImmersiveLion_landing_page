@@ -102,13 +102,19 @@ img {
     width: 182px;
     height: 44px;
     border-radius: 16px;
-    background: #FFC107;
+    color: #1F1E26;
+    background: #FFFFFF;
     border: none;
     font-family: Open Sans;
     font-size: 16px;
     font-weight: 600;
     line-height: 21.79px;
     cursor: pointer;
+    transition: all linear .3s;
+}
+
+.btn button:hover {
+    background: #FFC107;
 }
 
 /* banner part start */
@@ -149,6 +155,11 @@ img {
     border: none;
     background: #FFC107;
     cursor: pointer;
+    transition: all linear .3s;
+}
+
+#banner .btn2 button:hover {
+    background: #FFB400;
 }
 
 #banner .btn2 button img {
@@ -166,6 +177,11 @@ img {
     bottom: 47px;
     right: 39px;
     z-index: 9;
+    transition: all linear .3s;
+}
+
+.news:hover {
+    background: #FFC107;
 }
 
 .news a {
@@ -246,6 +262,12 @@ img {
     width: 32px;
     height: 32px;
     cursor: pointer;
+    color: #B3B3B3;
+    transition: all linear .3s;
+}
+
+.location1 .arrow:hover {
+    color: #FFFFFF;
 }
 
 .item {
@@ -260,6 +282,11 @@ img {
     text-align: left;
     color: #FFFFFF;
     padding-top: 20px;
+    transition: all linear .3s;
+}
+
+.item_text p:hover {
+    color: #FFC107;
 }
 
 .item_text p img {
@@ -318,6 +345,11 @@ img {
     font-weight: 600;
     line-height: 24px;
     cursor: pointer;
+    transition: all linear .3s;
+}
+
+.btn3 button:hover {
+    background: #FFFFFF;
 }
 
 .btn3 button img {
@@ -381,6 +413,7 @@ img {
     padding: 11px 60px;
     border-radius: 16px;
     border: none;
+    background: #FFFFFF;
     font-family: open Sans;
     font-weight: 600;
     font-size: 16px;
@@ -398,9 +431,4 @@ img {
 
 .icon {
     text-align: center;
-}
-
-.icon img {
-    width: 44px;
-    margin: 40px 4px 0;
 }
