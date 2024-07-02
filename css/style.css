@@ -318,12 +318,12 @@ img {
 .advernture2_text {
     width: 516px;
     padding: 28px 40px;
-    background: rgba(255, 255, 255, 0.8);
-    background: rgba(255, 255, 255, 0.2);
-    background: linear-gradient(152.44deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.02) 74.3%);
+    background: linear-gradient(152.44deg, rgba(255, 255, 255, .2) 0%, rgba(255, 255, 255, 0.1) 100%);
     border-radius: 15px;
     margin-left: 80px;
     margin-bottom: 390px;
+    filter: blur(20%);
+    -webkit-filter: blur(20%);
 }
 
 .advernture2_text p {
@@ -433,5 +433,30 @@ img {
 }
 
 .icon {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.icon a {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: #38373F;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-right: 16px;
+    transition: all linear .3s;
+}
+
+.icon a:hover {
+    background: #4A4950;
+}
+
+.icon a i {
+    width: 24px;
+    height: 24px;
 }
